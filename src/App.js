@@ -6,6 +6,7 @@ import DFSAlgorithm from './components/DFSAlgorithm'
 import BubbleSortAlgorithm from './components/BubbleSortAlgorithm'
 import InsertionSortAlgorithm from './components/InsertionSortAlgorithm'
 import SelectionSortAlgorithm from './components/SelectionSortAlgorithm'
+import './Global.css'
 const App = () => {
     const [selectedAlgorithm, setSelectedAlgorithm] = useState('Dijkstra');
     const [dropdownOpen, setDropdownOpen] = useState(false);
